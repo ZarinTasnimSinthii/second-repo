@@ -5,16 +5,20 @@ body {
 
 }
 
+section {
+    display: flex;
+}
+
+.peter {
+    color: orange;
+}
+
 h1 {
     font-size: 50px;
 }
 
-.orange-color {
-    color: orange;
-}
-
-section {
-    display: flex;
+h2 {
+    font-size: 40px;
 }
 
 .half-width {
@@ -23,26 +27,20 @@ section {
 }
 
 .half-width img {
-    width: 100%
+    width: 100%;
+    padding-top: 50px;
 }
 
 .link-button {
     text-decoration: none;
     background-image: linear-gradient(orange, tomato);
-    padding: 10px 40px;
     color: white;
     font: 700;
     border-radius: 10px;
+    padding: 10px 40px;
 }
 
-.top-down {
+.top-banner {
     background-image: url(top-banner.png);
     background-repeat: no-repeat;
-}
-
-.dream-big {
-    background-image: url(dream-bg.png);
-    background-repeat: no-repeat;
-    background-position: right;
-    padding-top: 40px;
 }
